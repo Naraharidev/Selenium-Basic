@@ -11,6 +11,7 @@ public class BrowserHandler {
 	public static WebDriver getWebDriver(String driverName) {
 		System.out.println(driverName);
 		WebDriver driver = null;
+		System.out.println("hello");
 		if ("chrome".equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
