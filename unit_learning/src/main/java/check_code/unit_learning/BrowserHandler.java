@@ -36,7 +36,7 @@ public class BrowserHandler {
 		System.out.println(" Title of Website: "+Title);
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Smart Phones");
 		driver.findElement(By.id("nav-search-submit-button")).click();
-		System.out.println("-----Mobiles Under 10000 with 4GB RAM-----");
+		System.out.println("-----Mobiles Under 10000 with 4GB RAM-----\n");
 		
 		driver.findElement(By.xpath("//*[@id=\"p_36/1318505031\"]/span/a/span")).click();      // click on cost
 		driver.findElement(By.xpath("//*[@id=\"p_n_feature_eight_browse-bin/8561115031\"]/span/a/div/label/i")).click(); // click on 4GB RAM
